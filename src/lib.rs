@@ -41,7 +41,7 @@ fn callback(_body: Vec<u8>) {
                     })
                 })
                 .collect::<String>();
-            send_message_to_channel("ham-5b68442", "general", msg);
+            send_message_to_channel("second-state", "github-status", msg);
         }
     }
 }
